@@ -22,7 +22,8 @@
 body, html{
     padding: 0;
     margin: 0;
-    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    /* background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); */
+    background-image: url('/img/wizard.jpg');
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -30,11 +31,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .all{
-    border: 1px solid rgb(85, 59, 59);
+    border: 1px solid rgb(85, 191, 223);
+    border-radius: 5%;
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
     padding: 10px 20px 10px 20px;
-    box-shadow: 5px 10px rgba(36, 31, 31, 0.781);
-    margin-left: 250px;
-    margin-right: 350px;
+    box-shadow: 5px 10px rgba(8, 10, 10, 0.596);
+    margin-left: 20%;
+    margin-right: 25%;
     margin-top: 3.5%;
     margin-bottom: 3%;
     font-family: 'Ubuntu', sans-serif;
@@ -55,7 +58,7 @@ h1, h2, h3, h4, h5, h6{
     position: fixed;
     left: 10%;
     right: 10%;
-    bottom: 5px;
+    bottom: 15px;
     height: 30px;
     text-align: center;
 }
@@ -66,4 +69,16 @@ h1, h2, h3, h4, h5, h6{
 
 .footer > span:hover {
     cursor: pointer;
+}
+
+.icon-color-lin{
+    color: rgb(0, 27, 181);
+}
+
+.icon-color-ttr{
+    color: rgb(0, 139, 181);
+}
+
+.icon-color-git{
+    color: rgb(0, 0, 0);
 }
